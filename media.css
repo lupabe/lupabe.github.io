@@ -1,0 +1,151 @@
+@media (max-width: 900px) {
+	
+	header.down .nav-toggle{
+		color: #000;
+		font-size: 20px;
+		line-height: 0;
+	}
+
+	header.down {
+    	padding: 0;
+	}
+
+	header.down ul li a {
+    color: #8e8e8e;
+    padding: 10px 20px;
+	font-size: 20px;
+	position: relative;
+	}
+
+	header.down a:hover {
+		background: none;
+		color: #EDB214;
+		font-size: 21px;
+		transition: none;
+	}
+
+	.navbar{
+		padding: 0;
+	}
+
+	.menu {
+		flex-direction: column;
+		position: fixed;
+		opacity: 1;
+		background-color: rgba(0, 0, 0, 1.0);
+		z-index: 7;
+		width: 100%;
+		height: 100%;
+		transform: translateX(0%);
+		transition: all 0.5s;
+	}
+
+	.brand {
+		margin-left: 20px;
+	}
+
+	.stop-scrolling {
+	  height: 100%;
+	  overflow: hidden;
+	}
+
+	.visible {
+		display: flex;
+		transform: translateX(100%);
+	  opacity: 0;
+	  transition: all 0.5s;
+	}
+
+	.menu li{
+		margin-top: 60px;
+	}
+
+	.menu a:hover {
+		background: none;
+		color: #fff;
+		font-size: 21px;
+		transition: none;
+	}
+
+	.nav-toggle {
+		color: #fff;
+		background: none;
+		border: none;
+		font-size: 20px;
+		padding: 0 20px;
+		display: block;
+		
+	}
+
+	.fabars {
+		transform: rotate(90deg);
+		transition: 0.2s 0.1s;
+	}
+
+	.rotate {
+		transform: rotate(0deg);
+		transition: 0.2s 0.1s;
+	}
+
+	section {
+	    padding: 60px 0;
+	}
+
+	
+	.slick {
+    	width: 240px;
+	}
+
+	.slick-list {
+		width: 240px;
+	}
+
+	.ap__grid {
+		grid-template-columns: 1fr;
+	}
+
+	.about__grid {
+		grid-template-columns: 1fr;
+	}
+
+	.divbox {
+		height: 0;
+		padding: 0;
+	}
+
+	.midset {
+		max-height: 100vh;
+		min-height: 0;
+	}
+
+	#button-up {
+		width: 45px;
+    	height: 45px;
+    	right: 8px;
+	}
+
+	#open {
+		width: 45px;
+    	height: 45px;
+		left: 8px;
+	}
+
+	.contact__form textarea {
+   	 width: 250px;
+   	 height: 100px;
+   	 max-width: 250px;
+   	 max-height: 100px;
+	}
+
+	.section__tittle {
+		font-size: 27px;
+	}
+
+	.ap__grid p {
+   		font-size: 17px;
+	}
+
+	.about__grid p {
+   		font-size: 17px;
+	}
+}
